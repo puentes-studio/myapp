@@ -2,12 +2,14 @@ import { useState } from 'react';
 import vladphoto from '../../../assets/vlad-picture.jpeg';
 import './Home.css';
 import Nav from '../../../components/nav/Nav';
+import { useName } from '../../../../Context/Name.Context';
+
 
 
 
 function Home() {
   const [count, setCount] = useState(0);
-
+  const { nameState } = useName()
 
   return (
     <>
@@ -17,7 +19,7 @@ function Home() {
           <img src={vladphoto} className="cv-photo" alt="CV Photo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Hello, {nameState.name}!</h1>
       <div className="card">
         <button onClick={() => setCount(count + 1)}>
           count is {count}
