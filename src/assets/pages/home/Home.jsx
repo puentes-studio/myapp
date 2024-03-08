@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import vladphoto from '../assets/vlad-picture.jpeg';
-import './App.css';
-import Nav from '../../components/nav/Nav';
+import vladphoto from '../../../assets/vlad-picture.jpeg';
+import './Home.css';
+import Nav from '../../../components/nav/Nav';
 
 
 
