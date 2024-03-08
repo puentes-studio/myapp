@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Nav.css';
 import { NavLink } from 'react-router-dom';
 
@@ -11,6 +11,7 @@ const Nav = () => {
                 <h1>
                     <NavLink className="nav-title" to="/">Vlad Beltran</NavLink>
                 </h1>
+                <div className='menu-wrapper'>
                 <div className="menu-toggle" id="mobile-menu" onClick={() => {
                     setShowMenu(!showMenu); // Toggle the state between true and false
                 }}>
@@ -19,7 +20,7 @@ const Nav = () => {
                     <span></span>
                 </div>
                 {showMenu ? (
-                    <ul className="">
+                    <ul className="mobile-nav">
                         <li><NavLink to="/house">About Me</NavLink></li>
                         <li><NavLink to="/rock">Projects</NavLink></li>
                         <li><NavLink to="/jazz">Contact</NavLink></li>
@@ -30,7 +31,9 @@ const Nav = () => {
                     <li><NavLink to="/rock">Projects</NavLink></li>
                     <li><NavLink to="/jazz">Contact</NavLink></li>
                 </ul>
+                </div>
             </nav>
+            
         </>
     );
 }
