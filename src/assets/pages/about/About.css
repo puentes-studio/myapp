@@ -1,6 +1,6 @@
 .cv-photo {
-  height: 7em;
-  padding: 1.5em;
+  height: 10.5em;
+  padding: 2.5em;
   will-change: filter;
   transition: filter 300ms;
   border-radius: 50%;
@@ -15,6 +15,7 @@
 .about-title {
   font-size: 45px;
   color: yellow;
+  margin-top: -9px;
 }
 
 .description-about {
@@ -36,4 +37,12 @@
 
 .highlight-3 {
   color: #ffffff;
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  color: black;
 }
