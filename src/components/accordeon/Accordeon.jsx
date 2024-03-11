@@ -31,6 +31,7 @@ const Accordion = ({}) => {
         >
           Multiple View
         </button>
+
         {AccordeonData && AccordeonData.length > 0 ? (
           AccordeonData.map((dataItem) => (
             <div key={dataItem.id} className="item">
