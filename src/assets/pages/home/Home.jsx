@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import homeIllustration from '../../../assets/home-illustration .png';
+import mobileIllustration from '../../../assets/mobile-illustration.png';
 import './Home.css';
-import Nav from '../../../components/nav/Nav';
+// import Nav from '../../../components/nav/Nav';
 import { useName } from '../../../../Context/Name.Context';
 
 
@@ -17,7 +17,7 @@ function Home() {
       {/* <Nav /> */}
       <div className='home-container'>
         <a href="#" target="_blank">
-          <img src={homeIllustration} className="home-photo" alt="Home illustration" />
+          <img src={mobileIllustration} className="home-photo" alt="Home illustration" />
         </a>
       </div>
       <h1 className='name'>Hello, {nameState.name}!</h1>

@@ -8,28 +8,28 @@
 }
 
 .home-photo {
-    height: 13em;
-    margin: 10vh auto;
-  }
+  height: 230px;
+  margin: 9.5vh auto;
+  border-radius: 50%;
+}
 
-  .name {
-    font-size: 50px;
-    color: yellow;
-    margin: 40px;
-  }
-  
+.name {
+  font-size: 50px;
+  color: yellow;
+  margin: 40px 40px 17px 40px;
+}
 
-  .home-description {
-    font-size: medium;
-    margin: 30px 65px 30px 65px;
-  }
+.home-description {
+  font-size: medium;
+  margin: 15px 65px 30px 65px;
+}
 
-  .go-button {
-    padding: 10px 70px;
-    background-color: #4c4c4c;
-    color: #fff;
-    border: 2px solid rgb(81, 255, 0);
-    border-radius: 50px;
-    cursor: pointer;
-    margin: 0 10px;
+.go-button {
+  padding: 10px 70px;
+  background-color: #4c4c4c;
+  color: #fff;
+  border: 2px solid rgb(81, 255, 0);
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 10px;
 }
