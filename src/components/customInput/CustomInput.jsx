@@ -49,7 +49,7 @@ console.log(nameState.name)
     return (
         <div className='container'>
             <form onSubmit={handleSubmit}>
-                <label className="label-input" htmlFor="nameInput">Hello! What's your name?</label>
+                <label className="label-input" htmlFor="nameInput">Hi! What's your name?</label>
                 <input
                     className='custom-input'
                     type="text"

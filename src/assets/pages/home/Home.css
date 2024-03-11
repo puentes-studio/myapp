@@ -1,13 +1,25 @@
-.cv-photo {
-    height: 7em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-    border-radius: 50%;
+.home-container {
+  background-color: white;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 40vh;
+}
+
+.home-photo {
+    height: 13em;
+    margin: 10vh auto;
   }
-  .cv-photo:hover {
-    filter: drop-shadow(0 0 2em #232323aa);
+
+  .name {
+    font-size: 50px;
+    color: yellow;
+    margin: 40px;
   }
-  .cv-photot:hover {
-    filter: drop-shadow(0 0 2em #1c1c1caa);
+  
+
+  .home-description {
+    font-size: medium;
+    margin: 30px 65px 30px 65px;
   }

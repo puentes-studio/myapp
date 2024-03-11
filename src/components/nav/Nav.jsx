@@ -9,7 +9,7 @@ const Nav = () => {
         <>
             <nav className="navBar">
                 <h1>
-                    <NavLink className="nav-title" to="/home">Vlad Beltran</NavLink>
+                    <NavLink className="nav-title" to="/home">Vlad Beltran CV</NavLink>
                 </h1>
                 <div className='menu-wrapper'>
                 <div className="menu-toggle" id="mobile-menu" onClick={() => {
