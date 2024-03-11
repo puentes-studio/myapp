@@ -27,6 +27,9 @@ export const NameProvider = ({ children }) => {
   const [nameState, dispatch] = useReducer(nameReducer, initialState);
 
   const handleName = async (name) => {
+    if (name.trim() === '') {
+        return;
+      }
     dispatch({ type: 'NAME_REQUEST' , name: name});
     console.log(name);
   };
