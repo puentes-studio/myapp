@@ -1,0 +1,26 @@
+.accordion-wrapper {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.item {
+  margin-bottom: 33px;
+  background-color: aquamarine;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-content {
+  height: auto;
+}

@@ -2,6 +2,7 @@
 import vladphoto from "../../../assets/vlad-picture.jpeg";
 import "./About.css";
 import Nav from "../../../components/nav/Nav";
+import Accordeon from "../../../components/accordeon/Accordeon";
 // import { useName } from "../../../../Context/Name.Context";
 
 function About() {
@@ -33,7 +34,7 @@ function About() {
       </div>
       <section className="tech-stack">
         <h3>Technology stack</h3>
-        <p>React, Node.js, Git, SQL, C#, ES6, HTML, CSS, Adobe, Figma.</p>
+        <Accordeon />
       </section>
     </>
   );
