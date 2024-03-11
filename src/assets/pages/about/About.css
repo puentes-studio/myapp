@@ -1,13 +1,39 @@
 .cv-photo {
-    height: 7em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-    border-radius: 50%;
-  }
-  .cv-photo:hover {
-    filter: drop-shadow(0 0 2em #232323aa);
-  }
-  .cv-photot:hover {
-    filter: drop-shadow(0 0 2em #1c1c1caa);
-  }
+  height: 7em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.cv-photo:hover {
+  filter: drop-shadow(0 0 2em #232323aa);
+}
+.cv-photot:hover {
+  filter: drop-shadow(0 0 2em #1c1c1caa);
+}
+
+.about-title {
+  font-size: 45px;
+  color: yellow;
+}
+
+.description-about {
+  margin: 20px 45px 20px 45px;
+  color: gainsboro;
+  font-size: 20px;
+  text-align: left;
+}
+
+.highlight-1 {
+  color: #90ff52;
+  font-weight: 600;
+}
+
+.highlight-2 {
+  color: #52ffee;
+  font-weight: 400;
+}
+
+.highlight-3 {
+  color: #ffffff;
+}

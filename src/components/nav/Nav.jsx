@@ -14,7 +14,7 @@ const Nav = () => {
           <NavLink className="nav-title" to="/home">
             {nameState.name}
           </NavLink>
-          <p className="is-recruiting">is Recruiting</p>
+          <p className="is-recruiting">is watching...</p>
         </h1>
 
         <div className="menu-wrapper">
