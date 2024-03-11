@@ -19,19 +19,24 @@ const CustomInput = () => {
     };
 
     const handleSubmit = (event) => {
-    event.preventDefault();
-
-        const trimmedName = nameState.name.trim();
-        const inputConditions = /^[a-zA-Z]{2,35}$/;
-
-        if (trimmedName === '') {
-            setAlertMessage('Please enter your name.');
-            setIsOpen(true);
-        } else if (!inputConditions.test(trimmedName)) {
-            setAlertMessage('Please enter name with no simbols and numbers');
-            setIsOpen(true);
-        } else {
-            navigate('/home');
+        event.preventDefault();
+    
+        try {
+            const trimmedName = nameState.name.trim();
+            const inputConditions = /^[a-zA-Z]{1,35}$/;
+    
+            if (trimmedName === '') {
+                setAlertMessage('Please enter your name.');
+                setIsOpen(true);
+            } else if (!inputConditions.test(trimmedName)) {
+                setAlertMessage('Please enter name with no simbols and numbers');
+                setIsOpen(true);
+            } else {
+                navigate('/home');
+            }
+        } catch (error) {
+            // Handle any potential errors here
+            console.error('An error occurred:', error);
         }
     };
 

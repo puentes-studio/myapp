@@ -2,6 +2,9 @@ import React from 'react';
 import Modal from 'react-modal';
 import './Alert.css';
 
+// Set app element for accessibility
+Modal.setAppElement('#root');
+
 const AlertModal = ({ isOpen, message, onClose }) => {
   return (
     <Modal isOpen={isOpen} onRequestClose={onClose}>
