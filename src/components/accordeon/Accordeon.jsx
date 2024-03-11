@@ -4,25 +4,48 @@ import "./Accordeon.css";
 
 const Accordion = ({}) => {
   const [selected, setSelected] = useState(null);
+  const [enableMultipleSelection, setEnableMultipleSelection] = useState(false);
+  const [multipleSelection, setMultipleSelection] = useState([]);
 
   function handleSingleSelection(getCurrentId) {
     setSelected(getCurrentId === selected ? null : getCurrentId);
   }
 
-  console.log(selected);
+  function handleMultipleSelection(getCurrentId) {
+    let cpyMultiple = [...multipleSelection];
+    const findIndexOfMultipleId = cpyMultiple.indexOf(getCurrentId);
+    console.log(findIndexOfMultipleId);
+    if (findIndexOfMultipleId === -1) cpyMultiple.push(getCurrentId);
+    else cpyMultiple.splice(findIndexOfMultipleId, 1);
+
+    setMultipleSelection(cpyMultiple);
+  }
+
+  console.log(selected, multipleSelection);
   return (
     <div className="accordion-wrapper">
       <div className="accordion">
+        <button
+          className="selection-button"
+          onClick={() => setEnableMultipleSelection(!enableMultipleSelection)}
+        >
+          Multiple View
+        </button>
         {AccordeonData && AccordeonData.length > 0 ? (
           AccordeonData.map((dataItem) => (
             <div key={dataItem.id} className="item">
               <div
-                onClick={() => handleSingleSelection(dataItem.id)}
+                onClick={
+                  enableMultipleSelection
+                    ? () => handleMultipleSelection(dataItem.id)
+                    : () => handleSingleSelection(dataItem.id)
+                }
                 className="title"
               >
                 <h3>{dataItem.title}</h3>
               </div>
-              {selected === dataItem.id ? (
+              {selected === dataItem.id ||
+              multipleSelection.indexOf(dataItem.id) !== -1 ? (
                 <ul className="data-content">
                   {dataItem.list.map((item, index) => (
                     <li key={index}>{item}</li>
