@@ -3,6 +3,7 @@ import vladphoto from "../../../assets/vlad-picture.jpeg";
 import "./About.css";
 import Nav from "../../../components/nav/Nav";
 import Accordeon from "../../../components/accordeon/Accordeon";
+import Footer from "../../../components/footer/Footer";
 // import { useName } from "../../../../Context/Name.Context";
 
 function About() {
@@ -36,6 +37,7 @@ function About() {
         <h3 className="skills-title">Skills</h3>
         <Accordeon />
       </section>
+      <Footer className="" />
     </>
   );
 }

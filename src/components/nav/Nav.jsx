@@ -32,25 +32,25 @@ const Nav = () => {
           {showMenu ? (
             <ul className="mobile-nav">
               <li>
-                <NavLink to="/house">About Me</NavLink>
+                <NavLink to="/about">About Me</NavLink>
               </li>
               <li>
-                <NavLink to="/rock">Projects</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
-                <NavLink to="/jazz">Contact</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           ) : null}
           <ul className="nav-list">
             <li>
-              <NavLink to="/house">About Me</NavLink>
+              <NavLink to="/about">About Me</NavLink>
             </li>
             <li>
-              <NavLink to="/rock">Projects</NavLink>
+              <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-              <NavLink to="/jazz">Contact</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

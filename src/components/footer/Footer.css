@@ -1,0 +1,61 @@
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-list {
+  display: flex;
+  margin: 0;
+  padding: 10px 5px 15px 5px;
+}
+
+.footer-list li {
+  list-style: none;
+  padding: 5px 10px 5px 10px;
+}
+.footer-list a {
+  text-decoration: none;
+  color: rgb(221, 255, 0);
+  cursor: pointer;
+}
+
+.footer-list a:hover {
+  color: rgb(255, 3, 230);
+}
+
+.footer-list a:active {
+  color: rgb(45, 245, 238);
+}
+
+.footer-title {
+  margin: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.footer-description {
+  margin: 0;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.linkedin-size {
+  height: 25px;
+}
+.github-size {
+  height: 35px;
+}
