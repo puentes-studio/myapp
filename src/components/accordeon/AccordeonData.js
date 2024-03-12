@@ -24,10 +24,13 @@ const accordeonData = [
       "Problem Solving",
       "Self-learning",
       "Creativity",
+      "Teamwork",
+      "Empathy",
       "Communication",
       "Organization",
       "Attention to detail",
       "Customer service",
+      "Adapatability",
     ],
   },
 ];
