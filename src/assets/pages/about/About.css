@@ -20,7 +20,7 @@
 
 .description-about {
   margin: 20px 45px 60px 45px;
-  color: gainsboro;
+  color: rgb(167, 167, 167);
   font-size: 20px;
   text-align: left;
 }
@@ -37,6 +37,7 @@
 
 .highlight-3 {
   color: #ffffff;
+  font-weight: 400;
 }
 
 .tech-stack {
