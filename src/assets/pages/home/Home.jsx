@@ -13,13 +13,11 @@ function Home() {
     <>
       {/* <Nav /> */}
       <div className="home-container">
-        <a href="#" target="_blank">
-          <img
-            src={mobileIllustration}
-            className="home-photo"
-            alt="Home illustration"
-          />
-        </a>
+        <img
+          src={mobileIllustration}
+          className="home-photo"
+          alt="Home illustration"
+        />
       </div>
       <h1 className="name">Hello, {nameState.name}!</h1>
       {/* <div className="card">
