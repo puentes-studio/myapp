@@ -46,3 +46,10 @@
   background-color: white;
   color: black;
 }
+
+.skills-title {
+  font-size: 35px;
+  color: #545252;
+  margin-top: 50px;
+  margin-bottom: 0;
+}

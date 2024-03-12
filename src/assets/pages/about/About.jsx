@@ -33,7 +33,7 @@ function About() {
         </p>
       </div>
       <section className="tech-stack">
-        <h3>Technology stack</h3>
+        <h3 className="skills-title">Skills</h3>
         <Accordeon />
       </section>
     </>

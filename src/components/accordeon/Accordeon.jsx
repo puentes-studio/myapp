@@ -29,21 +29,22 @@ const Accordion = ({}) => {
           className="selection-button"
           onClick={() => setEnableMultipleSelection(!enableMultipleSelection)}
         >
-          Multiple View
+          Activate/Deactivate Multiple Skills View
         </button>
 
         {AccordeonData && AccordeonData.length > 0 ? (
           AccordeonData.map((dataItem) => (
-            <div key={dataItem.id} className="item">
-              <div
-                onClick={
-                  enableMultipleSelection
-                    ? () => handleMultipleSelection(dataItem.id)
-                    : () => handleSingleSelection(dataItem.id)
-                }
-                className="title"
-              >
-                <h3>{dataItem.title}</h3>
+            <div
+              key={dataItem.id}
+              onClick={
+                enableMultipleSelection
+                  ? () => handleMultipleSelection(dataItem.id)
+                  : () => handleSingleSelection(dataItem.id)
+              }
+              className="item"
+            >
+              <div className="title">
+                <h3 className="item-title">{dataItem.title}</h3>
               </div>
               {selected === dataItem.id ||
               multipleSelection.indexOf(dataItem.id) !== -1 ? (
@@ -53,7 +54,7 @@ const Accordion = ({}) => {
                   ))}
                 </ul>
               ) : null}
-              <span>+</span>
+              <span className="span-weight">+</span>
             </div>
           ))
         ) : (
