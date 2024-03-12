@@ -1,36 +1,64 @@
-import { useState } from 'react';
-import vladphoto from '../../../assets/vlad-picture.jpeg';
-import './Home.css';
-import Nav from '../../../components/nav/Nav';
-import { useName } from '../../../../Context/Name.Context';
+import "./Projects.css";
+import Nav from "../../../components/nav/Nav";
+import Footer from "../../../components/footer/Footer";
 
-
-
-
-function Home() {
-  const [count, setCount] = useState(0);
-  const { nameState } = useName()
-
+function Projects() {
   return (
     <>
       <Nav />
-      <div>
-        <a href="#" target="_blank">
-          <img src={vladphoto} className="cv-photo" alt="CV Photo" />
-        </a>
-      </div>
-      <h1>Hello, {nameState.name}!</h1>
-      <div className="card">
-        <button onClick={() => setCount(count + 1)}>
-          count is {count}
-        </button>
-      </div>
-      <p className="read-the-docs">
-        I'm Vlad Beltran and I want to show you my CV in the best way, showing some of my skills and knowledge so you could have a good user experience.
-      </p>
+      <main className="main-projects">
+        <header className="header-projects">
+          <h2>/Work</h2>
+          <p>Selected projects I've taken on in the past.</p>
+        </header>
+        <section className="work-container">
+          <ul>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+              <figure className="project-logo"></figure>
+              <div className="project-info">
+                <h3 className="project-title"></h3>
+                <a href="http://"></a>
+              </div>
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+              <figure className="project-logo"></figure>
+              <div className="project-info">
+                <h3 className="project-title"></h3>
+                <a href="http://"></a>
+              </div>
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+              <figure className="project-logo"></figure>
+              <div className="project-info">
+                <h3 className="project-title"></h3>
+                <a href="http://"></a>
+              </div>
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+              <figure className="project-logo"></figure>
+              <div className="project-info">
+                <h3 className="project-title"></h3>
+                <a href="http://"></a>
+              </div>
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+              <figure className="project-logo"></figure>
+              <div className="project-info">
+                <h3 className="project-title"></h3>
+                <a href="http://"></a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <Footer />
     </>
   );
 }
 
-export default Home;
-
+export default Projects;

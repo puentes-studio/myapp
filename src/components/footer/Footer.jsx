@@ -1,6 +1,6 @@
 import "./Footer.css";
-import Linkedin from "../../assets/linkedin-app-white-icon.webp";
-import Github from "../../assets/github-white-icon.png";
+import Linkedin from "../../assets/img/linkedin-app-white-icon.webp";
+import Github from "../../assets/img/github-white-icon.png";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {

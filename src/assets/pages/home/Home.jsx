@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import mobileIllustration from "../../../assets/mobile-illustration.png";
+import mobileIllustration from "../../../assets/img/mobile-illustration.png";
 import "./Home.css";
 // import Nav from '../../../components/nav/Nav';
 import { useName } from "../../../../Context/Name.Context";

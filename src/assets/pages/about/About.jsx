@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import vladphoto from "../../../assets/vlad-picture.jpeg";
+import vladphoto from "../../img/vlad-picture.jpeg";
 import "./About.css";
 import Nav from "../../../components/nav/Nav";
 import Accordeon from "../../../components/accordeon/Accordeon";
