@@ -36,8 +36,18 @@ function About() {
       <section className="tech-stack">
         <h3 className="skills-title">Skills</h3>
         <Accordeon />
+
+        <p className="description-about-2">
+          I am dedicated to continual improvement in the landscape of{" "}
+          <span className="highlight-4">Frontend Development.</span> <br />
+          My skill set encompasses:{" "}
+          <span className="highlight-5">
+            Agile Methodologies, UI/UX Principles, Cross-Browser Compatibility,
+            and Performance Optimization.
+          </span>
+        </p>
       </section>
-      <Footer className="" />
+      <Footer />
     </>
   );
 }

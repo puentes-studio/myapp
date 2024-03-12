@@ -40,10 +40,21 @@
   font-weight: 400;
 }
 
+.highlight-4 {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.highlight-5 {
+  font-size: 17px;
+  font-weight: 500;
+  font-style: italic;
+}
+
 .tech-stack {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: white;
   color: black;
 }
@@ -53,4 +64,34 @@
   color: #545252;
   margin-top: 50px;
   margin-bottom: 0;
+}
+
+.description-about-2 {
+  margin: 77px 65px 60px 65px;
+  color: rgb(39, 39, 39);
+  font-size: 18.5px;
+  text-align: start;
+}
+
+@media screen and (min-width: 768px) {
+  .description-about {
+    margin: 20px 90px 60px 90px;
+    color: rgb(167, 167, 167);
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .description-about-2 {
+    margin: 60px 45px 60px 45px;
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .highlight-5 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+  }
 }
