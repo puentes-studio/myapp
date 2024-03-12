@@ -31,6 +31,12 @@
   color: rgb(45, 245, 238);
 }
 
+.container-footer-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-title {
   margin: 10px;
   font-size: 18px;
@@ -58,4 +64,22 @@
 }
 .github-size {
   height: 35px;
+}
+@media screen and (min-width: 768px) {
+  .footer-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 20px 30px 90px;
+  }
+  .container-footer-screen {
+    align-items: flex-end;
+  }
+
+  .footer-title {
+    margin: 0;
+  }
+
+  .footer-list {
+    margin: 0 62px;
+  }
 }
