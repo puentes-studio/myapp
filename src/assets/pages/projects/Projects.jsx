@@ -120,14 +120,14 @@ function Projects() {
                   <Link
                     className="project-website"
                     target="blank"
-                    to="https://pokemon-black-sable.vercel.app/"
+                    to="https://drumpaddd.netlify.app/"
                   >
                     See Project
                   </Link>
                   <Link
                     className="project-website"
                     target="blank"
-                    to="https://github.com/puentes-studio/PokemonBlack"
+                    to="https://github.com/puentes-studio/Drumpad.git"
                   >
                     See Repository
                   </Link>
