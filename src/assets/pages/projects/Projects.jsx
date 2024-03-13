@@ -1,8 +1,8 @@
 import "./Projects.css";
-import unika from "../../img/unika.png";
+import unika from "../../img/projects/unika.png";
 import Nav from "../../../components/nav/Nav";
 import Footer from "../../../components/footer/Footer";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Projects() {
   return (
@@ -15,54 +15,92 @@ function Projects() {
         </header>
         <section className="work-container">
           <ul className="projects">
-            <li>
-              <NavLink
+            <li className="project-container">
+              {/* <NavLink
                 to="/"
                 target="_blank"
                 className="project-link"
-              ></NavLink>
+              ></NavLink> */}
               <figure className="project-logo">
-                <img
-                  src={unika}
-                  className="logo-client"
-                  alt="Home illustration"
-                />
+                <img src={unika} className="logo-client" alt="Project-logo" />
               </figure>
               <div className="project-info">
-                <h3 className="project-title"></h3>
-                <a href="http://"></a>
+                <h3 className="project-title">Unika HR</h3>
+                <Link
+                  className="project-website"
+                  target="blank"
+                  to="https://unikahr.com/"
+                >
+                  www.unikahr.com
+                </Link>
               </div>
             </li>
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-              <figure className="project-logo"></figure>
+            <li className="project-container">
+              {/* <NavLink
+                to="/"
+                target="_blank"
+                className="project-link"
+              ></NavLink> */}
+              <figure className="project-logo">
+                <img src={unika} className="logo-client" alt="Project-logo" />
+              </figure>
               <div className="project-info">
-                <h3 className="project-title"></h3>
-                <a href="http://"></a>
+                <h3 className="project-title">Unika HR</h3>
+                <a className="project-website" href="https://unikahr.com/">
+                  www.unikahr.com
+                </a>
               </div>
             </li>
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-              <figure className="project-logo"></figure>
+            <li className="project-container">
+              {/* <NavLink
+                to="/"
+                target="_blank"
+                className="project-link"
+              ></NavLink> */}
+              <figure className="project-logo">
+                <img src={unika} className="logo-client" alt="Project-logo" />
+              </figure>
               <div className="project-info">
-                <h3 className="project-title"></h3>
-                <a href="http://"></a>
+                <h3 className="project-title">Unika HR</h3>
+                <a className="project-website" href="https://unikahr.com/">
+                  www.unikahr.com
+                </a>
               </div>
             </li>
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-              <figure className="project-logo"></figure>
+            <li className="project-container">
+              {/* <NavLink
+                to="/"
+                target="_blank"
+                className="project-link"
+              ></NavLink> */}
+              <figure className="project-logo">
+                <img src={unika} className="logo-client" alt="Project-logo" />
+              </figure>
               <div className="project-info">
-                <h3 className="project-title"></h3>
-                <a href="http://"></a>
+                <h3 className="project-title">Unika HR</h3>
+                <a className="project-website" href="https://unikahr.com/">
+                  www.unikahr.com
+                </a>
               </div>
             </li>
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-              <figure className="project-logo"></figure>
+            <li className="project-container">
+              {/* <NavLink
+                to="/"
+                target="_blank"
+                className="project-link"
+              ></NavLink> */}
+              <figure className="project-logo">
+                <img src={unika} className="logo-client" alt="Project-logo" />
+              </figure>
               <div className="project-info">
-                <h3 className="project-title"></h3>
-                <a href="http://"></a>
+                <h3 className="project-title">Unika HR</h3>
+                <Link
+                  className="project-website"
+                  target="blank"
+                  href="https://unikahr.com/"
+                >
+                  www.unikahr.com
+                </Link>
               </div>
             </li>
           </ul>
