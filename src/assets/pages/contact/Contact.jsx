@@ -22,8 +22,13 @@ function Contact() {
       </div>
 
       <div className="form-container">
-        <ContactForm className="contact-padding" />
-        <PhoneLink />
+        <p className="from-description">
+          Fill the form or just send an email to vladimir.puentesb@gmail.com
+        </p>
+        <div className="form-phone-container">
+          <ContactForm className="contact-padding" />
+          <PhoneLink />
+        </div>
       </div>
 
       <Footer />

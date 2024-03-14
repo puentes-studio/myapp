@@ -16,7 +16,7 @@
 
 .form-container {
   margin-top: -126px;
-  height: 70vh;
+  height: fit-content;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 0;
@@ -24,6 +24,33 @@
   background-color: #2d2d2d;
 }
 
+.from-description {
+  font-size: 18;
+  padding-top: 50px;
+}
+
 .contact-padding {
   padding-top: 20px;
+}
+
+.phone-padding {
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-photo {
+    height: 170px;
+    margin: 2vh auto;
+  }
+  .from-description {
+    padding-top: 12px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-phone-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
