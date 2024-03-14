@@ -3,6 +3,11 @@
 
   height: 40vh;
 }
+.contact-photo {
+  height: 179px;
+  margin: 3vh auto;
+  border-radius: 50%;
+}
 
 .form-title {
   font-size: 50px;
@@ -16,5 +21,9 @@
   border-top-right-radius: 50px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  background-color: black;
+  background-color: #2d2d2d;
+}
+
+.contact-padding {
+  padding-top: 20px;
 }

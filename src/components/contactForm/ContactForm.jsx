@@ -30,8 +30,7 @@ function ContactForm() {
 
   return (
     <div>
-      <h2>Contact Us</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="contact-form">
         <label htmlFor="name">Name:</label>
         <br />
         <input
@@ -68,7 +67,9 @@ function ContactForm() {
         ></textarea>
         <br />
 
-        <button type="submit">Submit</button>
+        <button className="submit-button" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );

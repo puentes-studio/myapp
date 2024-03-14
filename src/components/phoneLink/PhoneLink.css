@@ -1,0 +1,15 @@
+.phone-title {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.phone-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-container a {
+  color: white;
+  text-decoration: underline;
+}
