@@ -1,13 +1,20 @@
-.cv-photo {
-    height: 7em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-    border-radius: 50%;
-  }
-  .cv-photo:hover {
-    filter: drop-shadow(0 0 2em #232323aa);
-  }
-  .cv-photot:hover {
-    filter: drop-shadow(0 0 2em #1c1c1caa);
-  }
+.contact-header {
+  background-color: white;
+
+  height: 40vh;
+}
+
+.form-title {
+  font-size: 50px;
+  color: yellow;
+}
+
+.form-container {
+  margin-top: -126px;
+  height: 70vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: black;
+}
