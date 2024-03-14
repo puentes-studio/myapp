@@ -23,14 +23,14 @@ function About() {
       </div> */}
         <p className="description-about">
           I'm a <span className="highlight-1">Front-End Developer</span>{" "}
-          proficient and goal focused, dedicated to crafting immersive user
-          experiences. With a{" "}
+          proficient and goal focused, modular web design, object-oriented,
+          mastery of CSS, Javascript, UI builder, management of MySQL databases.
+          With a{" "}
           <span className="highlight-2">background in graphic design</span> and{" "}
           <span className="highlight-3">
             passion for learning, technology and innovation,
           </span>{" "}
-          I bring a blend of creativity and technical expertise to every
-          project.
+          Problem solving mindset.
         </p>
       </div>
       <section className="tech-stack">
