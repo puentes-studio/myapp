@@ -19,7 +19,7 @@ const projectsData = [
         name: "Unika HR",
         imageUrl: unikaImage,
         projectLink: "https://unikahr.com/",
-        repositoryLink: "",
+        repositoryLink: "https://github.com/puentes-studio/unikahr.git",
       },
       {
         name: "Puentes Studio",
