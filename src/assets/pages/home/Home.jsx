@@ -28,7 +28,7 @@ function Home() {
       <p className="home-description">
         I'm Vlad Beltran and I want to introduce my self the best way possible,
         showing to you some of my skills and knowledge so you can have a good
-        impression and user experience.
+        user experience and impression.
       </p>
       <NavLink className="go-button" to="/about">
         Go!
